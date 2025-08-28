@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maisie's Closet - Curated vintage finds and treasures. Coming soon!">
+    <title>Maisie's Closet - Vintage Treasures Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__logo">
+                <h1>Maisie's Closet</h1>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__content">
+                <h2 class="hero__title">Vintage Treasures</h2>
+                <p class="hero__subtitle">Curated by Maisie</p>
+                <p class="hero__description">
+                    Welcome to my special collection! I'm 8 years old and I love finding beautiful vintage treasures. 
+                    My online shop is coming soon where you'll find unique pieces with stories to tell.
+                </p>
+                <div class="hero__cta">
+                    <button class="btn btn--primary" id="notifyBtn">Notify Me When We Launch</button>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="treasure-box">
+                    <div class="sparkle sparkle--1"></div>
+                    <div class="sparkle sparkle--2"></div>
+                    <div class="sparkle sparkle--3"></div>
+                    <div class="vintage-items">
+                        <div class="item item--dress">👗</div>
+                        <div class="item item--hat">👒</div>
+                        <div class="item item--bag">👜</div>
+                        <div class="item item--jewelry">💍</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h3>About Maisie's Closet</h3>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>Hi! I'm Maisie, and I'm passionate about discovering amazing vintage finds. Each piece in my collection is carefully chosen because it's special and unique.</p>
+                        <p>From beautiful dresses to quirky accessories, I love sharing these treasures with people who appreciate their history and charm.</p>
+                    </div>
+                    <div class="about__features">
+                        <div class="feature">
+                            <span class="feature__icon">🔍</span>
+                            <h4>Carefully Curated</h4>
+                            <p>Each item is hand-picked for its uniqueness and quality</p>
+                        </div>
+                        <div class="feature">
+                            <span class="feature__icon">💖</span>
+                            <h4>Loved & Cherished</h4>
+                            <p>Every piece has a story and deserves a new home</p>
+                        </div>
+                        <div class="feature">
+                            <span class="feature__icon">🌟</span>
+                            <h4>One of a Kind</h4>
+                            <p>Unique vintage finds you won't see anywhere else</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter">
+            <div class="container">
+                <h3>Stay Updated</h3>
+                <p>Be the first to know when we launch and get early access to new arrivals!</p>
+                <form class="newsletter__form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email address" required id="emailInput">
+                    <button type="submit" class="btn btn--secondary">Subscribe</button>
+                </form>
+                <p class="newsletter__note">We'll never spam you, pinky promise! 🤞</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h4>Maisie's Closet</h4>
+                    <p>Vintage treasures with love</p>
+                </div>
+                <div class="footer__contact">
+                    <h4>Get in Touch</h4>
+                    <p>Questions about our vintage finds?</p>
+                    <a href="mailto:hello@maisiescloset.com" class="footer__email">hello@maisiescloset.com</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 Maisie's Closet. Made with 💜 by Maisie</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal" class="modal" role="dialog" aria-hidden="true">
+        <div class="modal__content">
+            <button class="modal__close" aria-label="Close modal">&times;</button>
+            <h3>Thanks for your interest! ✨</h3>
+            <p>We'll let you know as soon as Maisie's Closet is ready to open its doors!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
